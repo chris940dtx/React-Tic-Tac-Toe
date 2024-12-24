@@ -66,7 +66,7 @@ function calculateWinner(squares) {
     }
   }
   return null;
-  //if variables in these elements are the same then W.
+  //if variables in these elements are the same then 
 }
 
 export default function Game() {
@@ -103,7 +103,7 @@ export default function Game() {
     <div className="game">
       <h1>Testing auto deployment</h1>
       <div className="game-board">
-        <Board squares={currentSquares} xIsNext={xIsNext} onplay={handlePlay} />
+        <Board squares={currentSquares} xIsNext={xIsNext} onpladd ay={handlePlay} />
       </div>
       <div className="game-info">
         <ol>{moves} </ol>
